@@ -1,6 +1,6 @@
 <template>
     <div class="footer" :style="{color: defaultColor()}">
-        <p class="footer-content">This game owned by Le Duy Tan- <a href="https://github.com/duytanle" target="__blank" class="footer-link" :style="{color: defaultLinkColor()}">view here</a></p>
+        <p class="footer-content">This game owned by Le Duy Tan<a href="https://github.com/duytanle" target="__blank" class="footer-link" :style="{color: defaultLinkColor()}">view here</a></p>
     </div>
 </template>
 

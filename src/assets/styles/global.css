@@ -1,0 +1,54 @@
+:root{
+    --dark: #212121;
+    --blue: #2979ff;
+    --light: #f3f3f3;
+    --font: 'Odibee Sans', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none;
+}
+
+input {
+    line-height: normal;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input, 
+button, 
+body {
+    font-family: var(--font);
+    line-height: 1;
+
+}
